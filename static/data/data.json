@@ -1,0 +1,91 @@
+[
+  {
+    "start_time": "06:00",
+    "end_time": "09:00",
+    "movie_duration": "61.16",
+    "descriptions":
+    [
+        {"0" : "Herr Rossi verlässt das Gebäude"},
+        {"0" : "Herr Rossi geht zur Bäckerei"},
+        {"0" : "Herr Rossi geht zur Tramhaltestelle"},
+        {"0" : "Herr Rossi fährt mit dem Tram zur Arbeit in die Stadt Zürich"},
+        {"1" : "Personen die im Zwicky Areal arbeiten, kommen mit dem Tram, Auto, Velo oder zu Fuss an und gehen zu den Geschäften und Büros"},
+        {"2" : "Frau Bachmann und ihre Tochter verlassen das Gebäude"},
+        {"2" : "Frau Bachmann bringt ihre Tochter in die Swiss International School"},
+        {"2" : "Frau Bachmann fährt mit dem Velo zur Arbeit"}
+    ]
+  },
+  {
+    "start_time": "09:00",
+    "end_time": "11:30",
+    "movie_duration": "52.44",
+    "descriptions":
+    [
+      {"0" : "Frau Rossi verlässt das Gebäude und geht mit dem Hund im Wald spatzieren"},
+      {"1" : "Personen kommen aus den Gebäuden und gehen im Zwicky Areal einkaufen"},
+      {"0" : "Frau Rossi kommt vom Spaziergang zurück"},
+      {"0" : "Frau Rossi fährt mit dem Auto zum Einkauf ins Glatt Zentrum"}
+    ]
+  },
+  {
+    "start_time": "11:30",
+    "end_time": "13:30",
+    "movie_duration": "34.41",
+    "descriptions":
+    [
+        {"1" : "Die Angestellten des Zwickyareals gehen in die Mittagspause, Restaurants und Cafes"},
+        {"0" : "Frau Rossi kommt zurück vom Glatt Zentrum"},
+        {"0" : "Frau Rossi geht ins Fitness Center"}
+    ]
+  },
+  {
+    "start_time": "13:30",
+    "end_time": "16:30",
+    "movie_duration": "40.86",
+    "descriptions":
+    [
+        {"0" : "Die Schwester von Herrn Rossi aus Berlin kommt zu Besuch, vom Flughafen Kloten per Tram"},
+        {"0" : "Die Schwester checkt im Hotel ein"},
+        {"0" : "Herr Rossi kommt von der Arbeit zurück"},
+        {"0" : "Herr Rossi geht im Wald joggen"},
+        {"1" : "Die Angestellten aus dem Zwickyareal verlassen die Büros und gehen nach Hause, Auto, Tram, Zu Fuss, Velo"},
+        {"0" : "Herr Rossi kommt vom joggen zurück"}
+    ]
+  },
+  {
+    "start_time": "16:30",
+    "end_time": "18:30",
+    "movie_duration": "85.16",
+    "descriptions":
+    [
+        {"2" : "Frau Bachmann kommt von der Arbeit zurück und holt ihre Tochter von der Schule ab"},
+        {"2" : "Frau Bachmann geht mit ihrer Tochter auf den Spielplatz"},
+        {"0" : "Die Familie Rossi schlendert durchs Quartier und geht in den Biergarten"},
+        {"2" : "Frau Bachmann geht mit ihrer Tochter einkaufen, anschliessend nach Hause"}
+    ]
+  },
+  {
+    "start_time": "18:30",
+    "end_time": "23:00",
+    "movie_duration": "56.59",
+    "descriptions":
+    [
+        {"1" : "Bewohner kommen aus den Wohnhäusern und besuchen Restaurants und Bars"},
+        {"2" : "Familie Bachmann fährt mit dem Tram ins Kino"},
+        {"0" : "Die Familie Rossi kommt nach Hause und lässt den Abend auf der Loggia ausklingen"},
+        {"1" : "Bewohner gehen nach Hause"},
+        {"2" : "Familie Bachmann kommt nach Hause"}
+    ]
+  },
+  {
+    "start_time": "23:00",
+    "end_time": "06:00",
+    "movie_duration": "25.25",
+    "descriptions":
+    [
+        {"0" : "keine Aktivität"},
+        {"1" : "keine Aktivität"},
+        {"2" : "keine Aktivität"}
+    ]
+  }
+]

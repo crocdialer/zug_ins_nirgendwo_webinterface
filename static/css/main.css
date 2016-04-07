@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Rotundus;
+    src: url('/static/fonts/rotundus_rounded_toz_bold.eot');
+}
+
+body{
+  color: white;
+  background-color: black;
+}
+.jumbotron{
+  background-color: black;
+}
+
+legend{
+  color: white;
+}
+
+
+.jumbotron
+{
+  padding: 15px;
+}
+
+.jumbotron.active
+{
+  border: 7px solid RGBA(167, 4, 43, 1.0);
+}
+
+textarea 
+{
+  font-family: Rotundus;
+  background-color: black;
+  border-width: 4px;
+  border-color: RGBA(86, 86, 85, 1.0);
+  border-radius: 25px;
+  resize: none;
+}
+
+textarea#text_title
+{
+  font-size: 34px; 
+  width: 85%;
+  text-align: center;
+}
+
+textarea#text_subtitle
+{
+  font-size: 28px; 
+  width: 75%;
+  text-align: center;
+}
+
+textarea#text_body
+{
+  font-size: 26px; 
+  width: 100%;
+}
+
+.jumbotron.toggle h2
+{
+  text-align: center;
+}
+
+textarea:focus
+{
+  outline: none;
+}

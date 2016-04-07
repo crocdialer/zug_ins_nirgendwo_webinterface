@@ -1,0 +1,5 @@
+# .htaccess file 
+AuthType Basic
+AuthName "Kinski Remote"
+AuthUserFile /var/www/kinski_current/.htusers 
+require user crocdialer 
