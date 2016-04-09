@@ -61,11 +61,11 @@
     <!-- Page Content -->
     <div class="container-fluid">
       <div class="row param_section">
-        <div class="col-md-2 label">
+        <div class="col-md-3 label">
           <p>movie delay (secs): </p>
         </div>
-        <div class="col-md-2">
-          <input id="movie_delay" class="number_input form-control input-md" "type": "number"/>
+        <div class="col-md-1">
+          <input id="movie_delay" class="number_input form-control" "type": "number"/>
         </div>
       </div>
 
