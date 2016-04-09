@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Kinski Remote</a>
+                <a class="navbar-brand" href="/">zug ins nirgendwo</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,7 +49,7 @@
                         <a id="save" href="#">save</a>
                     </li>
                     <li>
-                        <a id="load" href="#">undo</a>
+                        <a id="load" href="#">load</a>
                     </li>
                 </ul>
             </div>
@@ -60,6 +60,15 @@
 
     <!-- Page Content -->
     <div class="container-fluid">
+      <div class="row param_section">
+        <div class="col-md-2 label">
+          <p>movie delay (secs): </p>
+        </div>
+        <div class="col-md-2">
+          <input id="movie_delay" class="number_input form-control input-md" "type": "number"/>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-12 movie_root">
           <div class="jumbotron movie_thumb">

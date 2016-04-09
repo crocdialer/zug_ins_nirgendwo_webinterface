@@ -26,39 +26,34 @@ legend{
   border: 7px solid RGBA(167, 4, 43, 1.0);
 }
 
-textarea 
+.param_section
 {
-  font-family: Rotundus;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+input.number_input
+{
+  /*font-family: Rotundus;*/
+  color: white;
   background-color: black;
   border-width: 4px;
   border-color: RGBA(86, 86, 85, 1.0);
-  border-radius: 25px;
-  resize: none;
+  border-radius: 12px;
 }
-
-textarea#text_title
+.label p
 {
-  font-size: 34px; 
-  width: 85%;
-  text-align: center;
-}
-
-textarea#text_subtitle
-{
-  font-size: 28px; 
-  width: 75%;
-  text-align: center;
-}
-
-textarea#text_body
-{
-  font-size: 26px; 
-  width: 100%;
+    font-size: 24px;
 }
 
 .jumbotron.toggle h2
 {
   text-align: center;
+}
+
+.movie_thumb h2
+{
+  font-size: 22px;
 }
 
 textarea:focus
