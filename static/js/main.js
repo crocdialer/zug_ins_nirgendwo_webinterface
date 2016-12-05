@@ -69,6 +69,10 @@ ControlWidget =
       {
         console.log(prop.name + " :" + prop.value);
       }
+      else if(prop.name == "movie playlist")
+      {
+        console.log(prop.name + " :" + prop.value);
+      }
 
       // insert remaining values into corresponding DOM elements (if any)
       var dom_sel = "#" + prop.name.trim().replace(/ /g,'_');
