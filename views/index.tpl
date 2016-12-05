@@ -74,7 +74,7 @@
           <p>playlist: </p>
         </div>
         <div class="col-md-2">
-          <input id="playlist" class="number_input form-control" "type": "text"/>
+          <input id="movie_playlist" class="number_input form-control" "type": "text"/>
         </div>
 
       </div>
