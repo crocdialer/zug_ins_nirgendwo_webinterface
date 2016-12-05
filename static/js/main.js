@@ -29,6 +29,12 @@ ControlWidget =
       console.log("delay changed: " + $(this).val());
       self.set_movie_delay(Number($(this).val()));
     });
+
+    $("#playlist").change(function()
+    {
+      console.log("playlist changed: " + $(this).val());
+      self.set_playlist($(this).val());
+    });
   },
 
   update_ui_with_component: function(the_component)
@@ -76,10 +82,11 @@ ControlWidget =
       movie_root.empty();
 
       // create and append DOM elements
-      for(var n in this.movie_names)
+      for(var i = 0; i < this.movie_names.length; i++)
       {
+        var n = this.movie_names[i];
         var mov_elem =
-          $("<div class='jumbotron movie_thumb'/>").append($("<h2/>").html(this.movie_names[n]));
+          $("<div class='jumbotron movie_thumb'/>").append($("<h2/>").html(i + ": " + n));
         movie_root.append(mov_elem);
 
         if(n == self.movie_index){ mov_elem.addClass("active"); }
@@ -158,6 +165,20 @@ ControlWidget =
       "name" : prop_name,
       "type" : "float",
       "value" : the_delay
+    };
+    this.on_change(json_obj);
+  },
+
+  set_playlist: function(the_playlist_str)
+  {
+    var prop_name = "movie playlist";
+
+    // generate json objects
+    var json_obj =
+    {
+      "name" : prop_name,
+      "type" : "string",
+      "value" : the_playlist_str
     };
     this.on_change(json_obj);
   }

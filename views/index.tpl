@@ -67,6 +67,16 @@
         <div class="col-md-1">
           <input id="movie_delay" class="number_input form-control" "type": "number"/>
         </div>
+
+        <!-- <div class="col-md-2"/> -->
+
+        <div class="col-md-2 label">
+          <p>playlist: </p>
+        </div>
+        <div class="col-md-2">
+          <input id="playlist" class="number_input form-control" "type": "text"/>
+        </div>
+
       </div>
 
       <div class="row">
