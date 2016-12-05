@@ -30,7 +30,7 @@ ControlWidget =
       self.set_movie_delay(Number($(this).val()));
     });
 
-    $("#playlist").change(function()
+    $("#movie_playlist").change(function()
     {
       console.log("playlist changed: " + $(this).val());
       self.set_playlist($(this).val());
@@ -93,7 +93,7 @@ ControlWidget =
           $("<div class='jumbotron movie_thumb'/>").append($("<h2/>").html(i + ": " + n));
         movie_root.append(mov_elem);
 
-        if(n == self.movie_index){ mov_elem.addClass("active"); }
+        if(i == self.movie_index){ mov_elem.addClass("active"); }
       }
 
       // create click handler
